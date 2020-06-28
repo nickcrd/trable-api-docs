@@ -2,6 +2,13 @@
 # Trable API Documentation
 Welcome to the Trable API Documentation. This GitHub Repo describes the API provided by the main Trable application which is used by the frontend and client mobile apps.
 
+<br/>
+
+> ### Warning - Work In Progress
+> This project is still very early in the design phase and is subject to change. New changes will be progressively added to this documentation and some functionality may be completely scrapped. 
+
+<br/>
+
 ## Authentication
 Most API routes require authentication. This is done via **JWT** (JSON Web Tokens)  authentication. The key is provided via the Authorization header as described below:
 ```HTTP
