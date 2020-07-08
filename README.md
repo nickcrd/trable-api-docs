@@ -20,8 +20,8 @@ The JWT payload contains this data:
 |id|The user/entity id|
 |iat|Timestamp when the token was issued, used to invalidate old tokens
 
-## Error Handling 
-When an error occurrs while executing an API request, a payload like below will be returned together with the corresponding HTTP code.
+## Responses & Error Handling
+The API will send responses in the JSON format. When an error occurrs while executing an API request, a JSON payload including a status code (which corresponds to the HTTP status code) and an error message will be returned. See example below:
 ```json
 {
   "status": 500,
