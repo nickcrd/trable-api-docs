@@ -13,11 +13,12 @@ Client Nodes need to connect to the master in order to get a public id, which wi
 **GET** /api/v1/devices/enrollNode
 >Enrolls a sensor node to the master and returns a generated Node ID and API Key
 ### Authorization:
-Enrollment Link Key: Provided via query params
-### Query Params: 
+JWT required
+### Request Body: 
 |name|type|description|
 |--|--|--|
-|linkKey|string|Key provided by the master to authorize enrollment|
+|displayName|string|Name of the node to be shown in dashboard|
+|location|(Location)[https://github.com/nickcrd/trable-api-docs/tree/master/models/location.md] object|The physical location of the node in x,y,z coordinates|
 ### Successful Response:
 |name|type|description|
 |--|--|--|
