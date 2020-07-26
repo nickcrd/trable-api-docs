@@ -18,7 +18,7 @@ JWT required
 |name|type|description|
 |--|--|--|
 |displayName|string|Name of the node to be shown in dashboard|
-|location|(Location)[https://github.com/nickcrd/trable-api-docs/tree/master/models/location.md] object|The physical location of the node in x,y,z coordinates|
+|location|[Location](https://github.com/nickcrd/trable-api-docs/tree/master/models/location.md) object|The physical location of the node in x,y,z coordinates|
 ### Successful Response:
 |name|type|description|
 |--|--|--|
