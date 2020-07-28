@@ -34,7 +34,7 @@ None
 ---
 
 ## Submit RSSI measurement
-**POST** /api/v1/location/subbmitRSSI
+**POST** /api/v1/location/submitRSSI
 > Sensor Nodes use this endpoint to send latest RSSI measurements to the master
 ### Authorization: 
 JWT required, Permission "sensor.submitRSSI" required
